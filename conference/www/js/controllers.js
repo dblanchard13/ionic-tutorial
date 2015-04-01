@@ -42,6 +42,7 @@ angular.module('starter.controllers', ['starter.services'])
       }
     },
     {scope: 'email, publish_actions'});
+    
     $timeout(function() {
       $scope.closeLogin();
     }, 1000);
